@@ -12,6 +12,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     </head>
     <style>
+        @import url("scrollControl.css");
         @import url("fonts.css");
         .navbar-blur {
             background: rgba(255, 255, 255, 0.7); /* 반투명 배경 */
@@ -44,6 +45,9 @@
         }
     </style>
     <body class="bg-light">
+        <button id="scrollToTop" title="Go to top"><img src="assets/svg/arrow-line-up.svg"></button>
+        <button id="scrollToBottom" title="Go to bottom"><img src="assets/svg/arrow-line-down.svg"></button>
+        <script src="scrollControl.js"></script>
         <!-- Header -->
         <header class="navbar navbar-expand-lg navbar-light fixed-top navbar-blur shadow-sm">
             <div class="container-fluid" style="padding: 0px 40px;">
@@ -217,8 +221,15 @@
                 <div class="container" style="padding: 0px 120px;">
                     <h1>I'm interested in</h1>
                     <h2 class="section-title">Companies</h2>
-                    <h4 class="interested-title">Viva Republica</h4>
-                    <h4 class="interested-title">Danggeun</h4>
+                    <div class="d-inline-flex align-items-center">
+                        <h4 class="interested-title mb-0 me-2">Viva Republica</h4>
+                        <img src="assets/svg/plus-circle.svg" alt="Viva Republica" style="cursor: pointer; width: 25px;" data-bs-toggle="modal" data-bs-target="#vivaRepublicaModal">
+                    </div>
+                    <br>
+                    <div class="d-inline-flex align-items-center">
+                        <h4 class="interested-title mb-0 me-2">Danggeun</h4>
+                        <img src="assets/svg/plus-circle.svg" alt="Danggeun" style="cursor: pointer; width: 25px;" data-bs-toggle="modal" data-bs-target="#danggeunModal">
+                    </div>
                     <h2 class="section-title">Issues</h2>
                     <h4 class="interested-title">Blockchain</h4>
                 </div>
@@ -231,5 +242,35 @@
                 <p>Copyright &copy; Euntaek Oh. All rights reserved.</p>
             </div>
         </footer>
+        <!-- Modals -->
+        <!-- Viva Republica -->
+        <div class="modal fade" id="vivaRepublicaModal" tabindex="-1" aria-labelledby="vivaRepublicaModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title interested-title" id="vivaRepublicaModalLabel">Viva Republica</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Danggeun -->
+        <div class="modal fade" id="danggeunModal" tabindex="-1" aria-labelledby="danggeunModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title interested-title" id="danggeunModalLabel">Danggeun</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blockchain -->
     </body>
 </html>

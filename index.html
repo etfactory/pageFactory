@@ -13,6 +13,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     </head>
     <style>
+        @import url("scrollControl.css");
         @import url("fonts.css");
         .navbar-blur {
             background: rgba(255, 255, 255, 0.7); /* 반투명 배경 */
@@ -36,6 +37,9 @@
         }
     </style>
     <body class="bg-light">
+        <button id="scrollToTop" title="Go to top"><img src="assets/svg/arrow-line-up.svg"></button>
+        <button id="scrollToBottom" title="Go to bottom"><img src="assets/svg/arrow-line-down.svg"></button>
+        <script src="scrollControl.js"></script>
         <!-- Header -->
         <header class="navbar navbar-expand-lg navbar-light fixed-top navbar-blur shadow-sm">
             <div class="container-fluid" style="padding: 0px 40px;">
