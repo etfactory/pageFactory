@@ -64,12 +64,13 @@
                 <div class="row">
                     <!-- Language -->
                     <h3 class="section-title">Language</h3>
-                    <div class="col-md-3 text-left">
-                        <h5>C</h5>
-                        <p>학부 과정 중 C를 활용하여 절차지향 프로그래밍에 대해 공부한 경험이 있습니다.</p><p>이를 활용하여 실습을 진행한 경험이 있습니다.</p>
-                        <ul class="info-list">
-                            <li><a href="https://github.com/etfactory/KNU-24Fall-C" target="_blank">Link (2024.09~12)</a></li>
-                        </ul>
+                    <div class="col-md-3">
+                        <div class="d-flex align-items-center justify-content-between" style="margin-bottom: 8px;">
+                            <h5 class="mb-0 me-2">C</h5>
+                            <img src="assets/svg/plus-circle.svg" alt="C" style="cursor: pointer; width: 10px;" data-bs-toggle="modal" data-bs-target="#cStudyModal">
+                        </div>
+                        <p>학부 과정 중 C를 활용하여 절차지향 프로그래밍에 대해 공부한 경험이 있습니다.</p>
+                        <p>이를 활용하여 실습을 진행한 경험이 있습니다.</p>
                     </div>
                     <div class="col-md-3 text-left">
                         <h5>C++</h5>
@@ -79,13 +80,12 @@
                         <h5>Python</h5>
                     </div>
                     <div class="col-md-3 text-left">
-                        <h5>Java</h5>
+                        <div class="d-flex align-items-center justify-content-between" style="margin-bottom: 8px;">
+                            <h5 class="mb-0 me-2">Java</h5>
+                            <img src="assets/svg/plus-circle.svg" alt="Java" style="cursor: pointer; width: 10px;" data-bs-toggle="modal" data-bs-target="#javaStudyModal">
+                        </div>
                         <p>학부 과정 중 Java를 활용하여 객체지향 프로그래밍에 대해 공부한 경험이 있습니다. SwingUI를 활용하여 GUI 프로그래밍을 진행한 경험이 있습니다.</p>
                         <p>또한, Java를 활용하여 안드로이드 어플리케이션을 개발한 경험이 있습니다.</p>
-                        <ul class="info-list">
-                            <li><a href="https://github.com/etfactory/ProjKNUCalendar" target="_blank">Calendar (2022.12)</a></li>
-                            <li>Application (2025)</li>
-                        </ul>
                     </div>
                     <!-- Mobile Programming -->
                     <h3 class="section-title">Mobile Programming</h3>
@@ -151,6 +151,72 @@
                 </div>
             </div>
         </main>
+        <!-- C Study -->
+        <div class="modal fade" id="cStudyModal" tabindex="-1" aria-labelledby="cStudyModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h3 class="modal-title interested-title" id="cStudyModalLabel"><img src="assets/svg/c_black.svg" alt="C" style="width: auto; height: 50px;" class="me-2"> C</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-6 text-left">
+                                <h5></h5>
+                            </div>
+                            <div class="col-md-6 text-left">
+                                <h5>학습내용</h5>
+                                <div class="row">
+                                    <div class="col-md-6 text-left">
+                                        <ul class="info-list">
+                                            <li><a href="https://github.com/etfactory/KNU-24Fall-C/tree/main/day01" target="_blank">Hello, World! 출력문</a></li>
+                                            <li><a href="https://github.com/etfactory/KNU-24Fall-C/tree/main/day02" target="_blank">반복문 및 조건문</a></li>
+                                            <li><a href="https://github.com/etfactory/KNU-24Fall-C/tree/main/day03" target="_blank">함수</a></li>
+                                            <li><a href="https://github.com/etfactory/KNU-24Fall-C/tree/main/day04" target="_blank">배열 및 포인터</a></li>
+                                            <li><a href="https://github.com/etfactory/KNU-24Fall-C/tree/main/day05" target="_blank">동적할당 및 구조체</a></li>
+                                            <li><a href="https://github.com/etfactory/KNU-24Fall-C/tree/main/day06" target="_blank">연결 리스트 및 파일 입출력</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6 text-left">
+                                        <ul class="info-list">
+                                            <li><a href="https://github.com/etfactory/KNU-24Fall-C/tree/main/day07" target="_blank">반복문 실습</a></li>
+                                            <li><a href="https://github.com/etfactory/KNU-24Fall-C/tree/main/day08" target="_blank">배열 및 포인터 실습</a></li>
+                                            <li><a href="https://github.com/etfactory/KNU-24Fall-C/tree/main/day09" target="_blank">구조체 실습</a></li>
+                                            <li><a href="https://github.com/etfactory/KNU-24Fall-C/tree/main/day10" target="_blank">연결 리스트 실습</a></li>
+                                            <li><a href="https://github.com/etfactory/KNU-24Fall-C/tree/main/day11" target="_blank">math.h 활용 실습</a></li>
+                                            <li><a href="https://github.com/etfactory/KNU-24Fall-C/tree/main/day12" target="_blank">코딩 테스트 기출문제</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h5>실습과제</h5>
+                                <ul class="info-list">
+                                    <li><a href="https://github.com/etfactory/KNU-24Fall-C/tree/main/finalProject" target="_blank">스네이크게임</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Java Study -->
+        <div class="modal fade" id="javaStudyModal" tabindex="-1" aria-labelledby="javaStudyModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h3 class="modal-title interested-title" id="javaStudyModalLabel"><img src="assets/svg/java_black.svg" alt="C" style="width: auto; height: 50px;" class="me-2"> Java</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <hr>
+                        <ul class="info-list">
+                            <li><a href="https://github.com/etfactory/ProjKNUCalendar" target="_blank">Calendar (2022.12)</a></li>
+                            <li>Application (2025)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- Footer -->
         <footer class="container-fluid bg-dark text-white text-left" style="padding: 120px 0px;">
             <div class="container">

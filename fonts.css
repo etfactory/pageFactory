@@ -18,21 +18,21 @@ h2 {
     font-style: normal;
 }
 .section-title {
-            font-family: 'Paperlogy-8ExtraBold';
-            src: url('fonts/Paperlogy-8ExtraBold.woff2') format('woff2');
-            color: darkcyan;
-            margin-top: 20px;
-        }
-        .info-list a {
-            color: black;
-            text-decoration: underline;
-        }
-        .info-list p {
-            color: gray;
-            text-decoration: underline;
-        }
-        .interested-title {
-            font-family: 'Paperlogy-8ExtraBold';
-            src: url('fonts/Paperlogy-8ExtraBold.woff2') format('woff2');
-            font-style: normal;
-        }
+    font-family: 'Paperlogy-8ExtraBold';
+    src: url('fonts/Paperlogy-8ExtraBold.woff2') format('woff2');
+    color: darkcyan;
+    margin-top: 20px;
+}
+.info-list a {
+    color: black;
+    text-decoration: underline;
+}
+.info-list p {
+    color: gray;
+    text-decoration: underline;
+}
+.interested-title {
+    font-family: 'Paperlogy-8ExtraBold';
+    src: url('fonts/Paperlogy-8ExtraBold.woff2') format('woff2');
+    font-style: normal;
+}
