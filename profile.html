@@ -14,6 +14,7 @@
     <style>
         @import url("scrollControl.css");
         @import url("fonts.css");
+        @import url("history.css");
         .navbar-blur {
             background: rgba(255, 255, 255, 0.7); /* 반투명 배경 */
             backdrop-filter: blur(10px); /* Blur 효과 */
@@ -80,10 +81,12 @@
                                 <li>Kongju National University<br>Div. of Computer Engineering, Major in Software</li>
                             </ul>
                             <h3 class="section-title">Experience</h3>
-                            <ul class="info-list">
-                                <li>2021.03~ : Kongju National University Undergraduate Student</li>
-                                <li>2023.02~2024.07 : ROKA Non-Commissioned Officer Academy Assistant Institute of Personal Weapon</li>
-                            </ul>
+                            <dl class="info-list">
+                                <dt>2021.03~</dt>
+                                <dd> : Kongju National University Undergraduate Student</dd>
+                                <dt>2023.02~2024.07</dt>
+                                <dd> : Republic of Korea Army Non-Commissioned Officer Academy Assistant Institute</dd>
+                            </dl>
                             <h3 class="section-title">Links</h3>
                             <ul class="info-list">
                                 <li><a href="https://github.com/etfactory" target="_blank"><img src="assets/svg/github.svg" style="width:20px;height:auto;"> Github<br><p>https://github.com/etfactory</p></a></li>
@@ -99,8 +102,71 @@
                 <!--  -->
                 <div class="container" style="padding: 0px 120px;">
                     <h1>The Path I Walked</h1>
-                    <h3 class="section-title">The Growth of Cryptocurrency</h3>
-                        <!-- 여기에 스크롤 하면서 연도별로 나열하면 괜찮을듯? -->
+                    <!-- 여기에 스크롤 하면서 연도별로 나열하면 괜찮을듯? -->
+                    <div class="my_history">
+                        <dl>
+                            <dt>2025년</dt>
+                            <dd>
+                                - studentSystem Cross Platform 개인 프로젝트 진행 (DART, Flutter)
+                                <br>
+                                - page:Factory 개인 프로젝트 진행 (WEB)
+                                <br>
+                                - INeedYourMessage 개인 프로젝트 잰행 (JavaScript, React Native)
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>2024년</dt>
+                            <dd>
+                                - Swift 학습 시작
+                                <br>
+                                - ID Card 개인 프로젝트 진행 (Swift) (2024.08.)
+                                <br>
+                                - storyFactory 블로그 시작 (Tistory)
+                                <br>
+                                - Flutter 학습 시작
+                                <br>
+                                - instagram 클론 개인 프로젝트 진행 (DART, Flutter) (2024. 11.)
+                                <br>
+                                - webDiary 개인 프로젝트 진행 (WEB) (2024. 12.)
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>2022년</dt>
+                            <dd>
+                                - Java 학습 시작
+                                <br>
+                                - KNU Calendar 개인 프로젝트 진행 (Java)
+                                <br>
+                                - Kotlin 학습 시작
+                                <br>
+                                - C++ 학습 시작
+                                <br>
+                                - studentSystem 개인 프로젝트 진행 (Kotlin)
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>2021년</dt>
+                            <dd>
+                                - 공주대학교 입학 (컴퓨터공학부)
+                                <br>
+                                - python 학습 시작
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>2019년</dt>
+                            <dd>
+                                - 게임제작동아리 동아리 창설
+                                <br>
+                                - Shooting Game 팀 프로젝트 진행 (C#, Unity)
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>2016년</dt>
+                            <dd>
+                                - C 언어 학습 시작
+                            </dd>
+                        </dl>
+                    </div>
                 </div>
                 <!-- Blank Section -->
                 <div class="container" style="padding: 40px 0px;">
@@ -193,6 +259,8 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <hr>
+                        <h4 class="interested-title">Reason for Select</h4>
+                        
                     </div>
                 </div>
             </div>
@@ -207,6 +275,18 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <hr>
+                        <h4 class="interested-title">Reason for Select</h4>
+                        <hr>
+                        <h4 class="interested-title">Recent Issue</h4>
+                        <h5>SK텔레콤 해킹 사건</h5>
+                        <p>SK텔레콤은 2025년 4월, 악성코드 감염으로 인해 고객의 유심(USIM) 관련 정보가 유출되는 해킹 피해를 입었습니다.</p>
+                        <p>해커는 유심의 고유번호 등 핵심 정보를 탈취하여, 이를 악용한 ‘심 스와핑(SIM Swapping)’ 공격까지 우려되는 상황이었습니다.</p>
+                        <p>이 사건은 단순히 기술적 문제를 넘어, 국민 개인정보와 금융 안전을 위협하는 심각한 보안 이슈로 부각됐습니다</p>
+                        <h5>모바일 환경 특화 공격</h5>
+                        <p>가짜 인증 앱, QR코드 악용, 중간자 공격(MITM), 음성 피싱과 앱 결합 공격 등 모바일 환경에 특화된 해킹 방식이 늘고 있습니다.</p>
+                        <p>특히 사용자가 인지하지 못하는 사이에 데이터가 탈취되거나, 원격 제어 앱을 통한 실시간 해킹이 이뤄지고 있습니다</p>
+                        <hr>
+                        <h4 class="interested-title">My Thoughts</h4>
                     </div>
                 </div>
             </div>
