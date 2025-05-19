@@ -7,17 +7,17 @@
 }
 
 .my_history dl {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 8px;
-    position: relative;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 8px;
+  position: relative;
 }
 .my_history dt {
-    min-width: 80px;
-    margin-right: 24px;
+  min-width: 80px;
+  margin-right: 24px;
 }
 .my_history dd {
-    margin-left: 0;
+  margin-left: 0;
 }
 
 .my_history dt span {
