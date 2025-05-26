@@ -49,3 +49,18 @@ h2 {
 .serif-colored {
     color: cyan;
 }
+.serif-big {
+    font-size: 18px;
+}
+@media (min-width: 992px){
+    .serif-big {
+        font-family: 'NanumMyeongjoBold';
+        font-size:30px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .serif-big {
+        font-family: 'NanumMyeongjoBold';
+        font-size:24px;
+    }
+}

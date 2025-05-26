@@ -38,3 +38,46 @@
   border-radius: 50%;
   z-index: 1;
 }
+
+.future_plan {
+  position: relative;
+  margin-left: 30px;
+  border-left: 2px dotted #ddd;
+  padding-left: 20px;
+  line-height: 2;
+}
+
+.future_plan dl {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.future_plan dt {
+  min-width: 80px;
+  margin-right: 14px;
+}
+
+.future_plan dd {
+  margin-left: 0;
+}
+
+.future_plan dt span {
+  font-size: 0.9em;
+  color: #888;
+  margin-left: 8px;
+}
+
+.future_plan dl:before {
+  content: "";
+  position: absolute;
+  left: -27px;
+  top: 8px;
+  width: 12px;
+  height: 12px;
+  background: #fff;
+  border: 3px solid darkcyan;
+  border-radius: 50%;
+  z-index: 1;
+}
