@@ -10,19 +10,19 @@
 
 /* Title: Paperlogy-8ExtraBold */
 h1 {
-    font-family: 'Paperlogy-8ExtraBold';
+    font-family: 'Paperlogy-8ExtraBold', 'Paperlogy 8ExtraBold', sans-serif;
     src: url('fonts/Paperlogy-8ExtraBold.woff2') format('woff2');
     font-weight: 800;
     font-style: normal;
 }
 h2 {
-    font-family: 'Paperlogy-8ExtraBold';
+    font-family: 'Paperlogy-8ExtraBold', 'Paperlogy 8ExtraBold', sans-serif;
     src: url('fonts/Paperlogy-8ExtraBold.woff2') format('woff2');
     font-weight: 800;
     font-style: normal;
 }
 .section-title {
-    font-family: 'Paperlogy-8ExtraBold';
+    font-family: 'Paperlogy-8ExtraBold' 'Paperlogy 8ExtraBold', sans-serif;
     src: url('fonts/Paperlogy-8ExtraBold.woff2') format('woff2');
     color: darkcyan;
     margin-top: 20px;
@@ -36,15 +36,15 @@ h2 {
     text-decoration: underline;
 }
 .interested-title {
-    font-family: 'Paperlogy-8ExtraBold';
+    font-family: 'Paperlogy-8ExtraBold', 'Paperlogy 8ExtraBold', sans-serif;
     src: url('fonts/Paperlogy-8ExtraBold.woff2') format('woff2');
     font-style: normal;
 }
 .serif {
-    font-family: 'NanumMyeongjoBold';
+    font-family: 'NanumMyeongjoBold', 'Nanum Myeongjo Bold', serif;
 }
 .serif-bold {
-    font-family: 'NanumMyeongjoExtraBold';
+    font-family: 'NanumMyeongjoExtraBold', 'Nanum Myeongjo ExtraBold', serif;
 }
 .serif-colored {
     color: cyan;
@@ -54,13 +54,13 @@ h2 {
 }
 @media (min-width: 992px){
     .serif-big {
-        font-family: 'NanumMyeongjoBold';
+        font-family: 'NanumMyeongjoBold', 'Nanum Myeongjo Bold', serif;
         font-size:30px;
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .serif-big {
-        font-family: 'NanumMyeongjoBold';
+        font-family: 'NanumMyeongjoBold', 'Nanum Myeongjo Bold', serif;
         font-size:24px;
     }
 }
