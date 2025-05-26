@@ -3,6 +3,10 @@
 @font-face {
     @import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
 }
+/* Title: Nanum Myeongjo */
+@font-face {
+    @import url('//hangeul.pstatic.net/hangeul_static/css/nanum-myeongjo.css');
+}
 
 /* Title: Paperlogy-8ExtraBold */
 h1 {
@@ -35,4 +39,13 @@ h2 {
     font-family: 'Paperlogy-8ExtraBold';
     src: url('fonts/Paperlogy-8ExtraBold.woff2') format('woff2');
     font-style: normal;
+}
+.serif {
+    font-family: 'NanumMyeongjoBold';
+}
+.serif-bold {
+    font-family: 'NanumMyeongjoExtraBold';
+}
+.serif-colored {
+    color: cyan;
 }
