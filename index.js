@@ -4,8 +4,8 @@ const app = express();
 // 정적 파일 제공 (public 폴더, assets, fonts 등)
 app.use(express.static(__dirname)); // 또는 app.use(express.static('public'));
 
-app.listen(8080, function() {
-  console.log('Server is running on port 8080');
+app.listen(80, function() {
+  console.log('Server is running on port 80');
 });
 
 app.get('/', function(req, res) {
